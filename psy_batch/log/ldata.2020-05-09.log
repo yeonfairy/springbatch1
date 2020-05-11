@@ -1,0 +1,43 @@
+2020-05-09 22:46:21,106 INFO [main] Starting PsyBatchApplication on DESKTOP-SOOYEON with PID 20700 (C:\Users\niceb\eclipse-workspace\psy_batch\target\classes started by sooyeon in C:\Users\niceb\eclipse-workspace\psy_batch)
+2020-05-09 22:46:21,112 INFO [main] No active profile set, falling back to default profiles: default
+2020-05-09 22:46:21,907 INFO [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-05-09 22:46:21,941 INFO [main] Finished Spring Data repository scanning in 26ms. Found 0 JDBC repository interfaces.
+2020-05-09 22:46:23,637 INFO [main] Tomcat initialized with port(s): 8080 (http)
+2020-05-09 22:46:23,654 INFO [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-09 22:46:23,654 INFO [main] Starting service [Tomcat]
+2020-05-09 22:46:23,654 INFO [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-09 22:46:23,798 INFO [main] Initializing Spring embedded WebApplicationContext
+2020-05-09 22:46:23,798 INFO [main] Root WebApplicationContext: initialization completed in 2618 ms
+2020-05-09 22:46:24,364 INFO [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-09 22:46:25,945 INFO [main] No database type set, using meta data indicating: ORACLE
+2020-05-09 22:46:25,979 INFO [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-05-09 22:46:26,156 INFO [main] Initializing ExecutorService 'taskScheduler'
+2020-05-09 22:46:26,198 INFO [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-09 22:46:26,237 INFO [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-09 22:46:26,240 INFO [main] Started PsyBatchApplication in 5.843 seconds (JVM running for 6.611)
+2020-05-09 22:46:26,241 INFO [main] Running default command line with: []
+2020-05-09 22:46:26,421 INFO [main] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{}]
+2020-05-09 22:46:26,519 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=0, version=4, name=step1, status=COMPLETED, exitStatus=COMPLETED, readCount=1, filterCount=0, writeCount=1 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=2, rollbackCount=0, exitDescription=
+2020-05-09 22:46:26,538 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=9, name=step2, status=COMPLETED, exitStatus=COMPLETED, readCount=6, filterCount=0, writeCount=6 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=7, rollbackCount=0, exitDescription=
+2020-05-09 22:46:26,554 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=20, version=9, name=step3, status=COMPLETED, exitStatus=COMPLETED, readCount=6, filterCount=0, writeCount=6 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=7, rollbackCount=0, exitDescription=
+2020-05-09 22:46:26,571 INFO [main] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 75ms
+2020-05-09 22:47:10,003 INFO [scheduling-1] Job StrartedSat May 09 22:47:10 KST 2020
+2020-05-09 22:47:10,017 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589032030004}]
+2020-05-09 22:47:10,031 INFO [scheduling-1] Executing step: [step1]
+2020-05-09 22:47:10,122 INFO [scheduling-1] Step: [step1] executed in 90ms
+2020-05-09 22:47:10,136 INFO [scheduling-1] Executing step: [step2]
+2020-05-09 22:47:10,184 INFO [scheduling-1] Step: [step2] executed in 48ms
+2020-05-09 22:47:10,200 INFO [scheduling-1] Executing step: [step3]
+2020-05-09 22:47:10,258 INFO [scheduling-1] Step: [step3] executed in 58ms
+2020-05-09 22:47:10,265 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589032030004}] and the following status: [COMPLETED] in 245ms
+2020-05-09 22:47:10,265 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-09 22:48:10,001 INFO [scheduling-1] Job StrartedSat May 09 22:48:10 KST 2020
+2020-05-09 22:48:10,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589032090001}]
+2020-05-09 22:48:10,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-09 22:48:10,033 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-09 22:48:10,066 INFO [scheduling-1] Executing step: [step2]
+2020-05-09 22:48:10,102 INFO [scheduling-1] Step: [step2] executed in 35ms
+2020-05-09 22:48:10,115 INFO [scheduling-1] Executing step: [step3]
+2020-05-09 22:48:10,156 INFO [scheduling-1] Step: [step3] executed in 40ms
+2020-05-09 22:48:10,161 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589032090001}] and the following status: [COMPLETED] in 148ms
+2020-05-09 22:48:10,161 INFO [scheduling-1] stepJob finished with status : COMPLETED

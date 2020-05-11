@@ -1,0 +1,849 @@
+2020-05-11 00:15:04,472 INFO [main] Starting PsyBatchApplication on DESKTOP-SOOYEON with PID 17488 (C:\Users\niceb\eclipse-workspace\psy_batch\target\classes started by sooyeon in C:\Users\niceb\eclipse-workspace\psy_batch)
+2020-05-11 00:15:04,475 INFO [main] No active profile set, falling back to default profiles: default
+2020-05-11 00:15:05,422 INFO [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-05-11 00:15:05,461 INFO [main] Finished Spring Data repository scanning in 30ms. Found 0 JDBC repository interfaces.
+2020-05-11 00:15:07,295 INFO [main] Tomcat initialized with port(s): 8080 (http)
+2020-05-11 00:15:07,313 INFO [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 00:15:07,314 INFO [main] Starting service [Tomcat]
+2020-05-11 00:15:07,314 INFO [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 00:15:07,471 INFO [main] Initializing Spring embedded WebApplicationContext
+2020-05-11 00:15:07,471 INFO [main] Root WebApplicationContext: initialization completed in 2928 ms
+2020-05-11 00:15:08,108 INFO [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 00:15:09,527 INFO [main] No database type set, using meta data indicating: ORACLE
+2020-05-11 00:15:09,554 INFO [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-05-11 00:15:09,702 INFO [main] Initializing ExecutorService 'taskScheduler'
+2020-05-11 00:15:09,729 INFO [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 00:15:09,761 INFO [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 00:15:09,764 INFO [main] Started PsyBatchApplication in 6.008 seconds (JVM running for 6.753)
+2020-05-11 00:15:09,766 INFO [main] Running default command line with: []
+2020-05-11 00:15:09,942 INFO [main] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{}]
+2020-05-11 00:15:10,067 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=0, version=4, name=step1, status=COMPLETED, exitStatus=COMPLETED, readCount=1, filterCount=0, writeCount=1 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=2, rollbackCount=0, exitDescription=
+2020-05-11 00:15:10,141 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=9, name=step2, status=COMPLETED, exitStatus=COMPLETED, readCount=6, filterCount=0, writeCount=6 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=7, rollbackCount=0, exitDescription=
+2020-05-11 00:15:10,177 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=20, version=9, name=step3, status=COMPLETED, exitStatus=COMPLETED, readCount=6, filterCount=0, writeCount=6 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=7, rollbackCount=0, exitDescription=
+2020-05-11 00:15:10,191 INFO [main] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 193ms
+2020-05-11 06:00:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:00:00 KST 2020
+2020-05-11 06:00:00,029 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144400005}]
+2020-05-11 06:00:00,051 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:00:00,154 INFO [scheduling-1] Step: [step1] executed in 103ms
+2020-05-11 06:00:00,167 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:00:00,208 INFO [scheduling-1] Step: [step2] executed in 41ms
+2020-05-11 06:00:00,223 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:00:00,280 INFO [scheduling-1] Step: [step3] executed in 56ms
+2020-05-11 06:00:00,287 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144400005}] and the following status: [COMPLETED] in 253ms
+2020-05-11 06:00:00,287 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:01:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:01:00 KST 2020
+2020-05-11 06:01:00,016 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144460003}]
+2020-05-11 06:01:00,028 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:01:00,039 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:01:00,053 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:01:00,083 INFO [scheduling-1] Step: [step2] executed in 29ms
+2020-05-11 06:01:00,095 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:01:00,137 INFO [scheduling-1] Step: [step3] executed in 41ms
+2020-05-11 06:01:00,143 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144460003}] and the following status: [COMPLETED] in 124ms
+2020-05-11 06:01:00,144 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:02:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:02:00 KST 2020
+2020-05-11 06:02:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144520002}]
+2020-05-11 06:02:00,023 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:02:00,037 INFO [scheduling-1] Step: [step1] executed in 14ms
+2020-05-11 06:02:00,051 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:02:00,084 INFO [scheduling-1] Step: [step2] executed in 33ms
+2020-05-11 06:02:00,097 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:02:00,136 INFO [scheduling-1] Step: [step3] executed in 39ms
+2020-05-11 06:02:00,144 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144520002}] and the following status: [COMPLETED] in 131ms
+2020-05-11 06:02:00,145 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:03:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:03:00 KST 2020
+2020-05-11 06:03:00,022 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144580002}]
+2020-05-11 06:03:00,035 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:03:00,046 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:03:00,058 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:03:00,086 INFO [scheduling-1] Step: [step2] executed in 28ms
+2020-05-11 06:03:00,096 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:03:00,130 INFO [scheduling-1] Step: [step3] executed in 33ms
+2020-05-11 06:03:00,136 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144580002}] and the following status: [COMPLETED] in 111ms
+2020-05-11 06:03:00,136 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:04:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:04:00 KST 2020
+2020-05-11 06:04:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144640002}]
+2020-05-11 06:04:00,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:04:00,036 INFO [scheduling-1] Step: [step1] executed in 13ms
+2020-05-11 06:04:00,050 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:04:00,085 INFO [scheduling-1] Step: [step2] executed in 35ms
+2020-05-11 06:04:00,099 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:04:00,140 INFO [scheduling-1] Step: [step3] executed in 40ms
+2020-05-11 06:04:00,147 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144640002}] and the following status: [COMPLETED] in 134ms
+2020-05-11 06:04:00,147 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:05:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:05:00 KST 2020
+2020-05-11 06:05:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144700002}]
+2020-05-11 06:05:00,021 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:05:00,032 INFO [scheduling-1] Step: [step1] executed in 11ms
+2020-05-11 06:05:00,042 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:05:00,072 INFO [scheduling-1] Step: [step2] executed in 29ms
+2020-05-11 06:05:00,082 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:05:00,116 INFO [scheduling-1] Step: [step3] executed in 33ms
+2020-05-11 06:05:00,121 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144700002}] and the following status: [COMPLETED] in 108ms
+2020-05-11 06:05:00,122 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:06:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:06:00 KST 2020
+2020-05-11 06:06:00,009 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144760002}]
+2020-05-11 06:06:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:06:00,031 INFO [scheduling-1] Step: [step1] executed in 11ms
+2020-05-11 06:06:00,043 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:06:00,073 INFO [scheduling-1] Step: [step2] executed in 29ms
+2020-05-11 06:06:00,086 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:06:00,120 INFO [scheduling-1] Step: [step3] executed in 34ms
+2020-05-11 06:06:00,126 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144760002}] and the following status: [COMPLETED] in 114ms
+2020-05-11 06:06:00,126 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:07:00,000 INFO [scheduling-1] Job StrartedMon May 11 06:07:00 KST 2020
+2020-05-11 06:07:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144820000}]
+2020-05-11 06:07:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:07:00,029 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:07:00,041 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:07:00,070 INFO [scheduling-1] Step: [step2] executed in 28ms
+2020-05-11 06:07:00,080 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:07:00,115 INFO [scheduling-1] Step: [step3] executed in 35ms
+2020-05-11 06:07:00,121 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144820000}] and the following status: [COMPLETED] in 109ms
+2020-05-11 06:07:00,121 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:08:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:08:00 KST 2020
+2020-05-11 06:08:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144880002}]
+2020-05-11 06:08:00,023 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:08:00,035 INFO [scheduling-1] Step: [step1] executed in 12ms
+2020-05-11 06:08:00,046 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:08:00,077 INFO [scheduling-1] Step: [step2] executed in 31ms
+2020-05-11 06:08:00,087 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:08:00,122 INFO [scheduling-1] Step: [step3] executed in 34ms
+2020-05-11 06:08:00,128 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144880002}] and the following status: [COMPLETED] in 113ms
+2020-05-11 06:08:00,128 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:09:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:09:00 KST 2020
+2020-05-11 06:09:00,020 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589144940002}]
+2020-05-11 06:09:00,031 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:09:00,039 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:09:00,050 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:09:00,077 INFO [scheduling-1] Step: [step2] executed in 26ms
+2020-05-11 06:09:00,087 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:09:00,120 INFO [scheduling-1] Step: [step3] executed in 33ms
+2020-05-11 06:09:00,125 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589144940002}] and the following status: [COMPLETED] in 102ms
+2020-05-11 06:09:00,125 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:10:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:10:00 KST 2020
+2020-05-11 06:10:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145000002}]
+2020-05-11 06:10:00,021 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:10:00,032 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:10:00,042 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:10:00,072 INFO [scheduling-1] Step: [step2] executed in 29ms
+2020-05-11 06:10:00,083 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:10:00,115 INFO [scheduling-1] Step: [step3] executed in 32ms
+2020-05-11 06:10:00,120 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145000002}] and the following status: [COMPLETED] in 106ms
+2020-05-11 06:10:00,121 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:11:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:11:00 KST 2020
+2020-05-11 06:11:00,013 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145060002}]
+2020-05-11 06:11:00,021 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:11:00,031 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:11:00,041 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:11:00,069 INFO [scheduling-1] Step: [step2] executed in 27ms
+2020-05-11 06:11:00,079 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:11:00,113 INFO [scheduling-1] Step: [step3] executed in 34ms
+2020-05-11 06:11:00,118 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145060002}] and the following status: [COMPLETED] in 103ms
+2020-05-11 06:11:00,119 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:12:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:12:00 KST 2020
+2020-05-11 06:12:00,009 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145120002}]
+2020-05-11 06:12:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:12:00,027 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:12:00,036 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:12:00,062 INFO [scheduling-1] Step: [step2] executed in 26ms
+2020-05-11 06:12:00,071 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:12:00,101 INFO [scheduling-1] Step: [step3] executed in 30ms
+2020-05-11 06:12:00,107 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145120002}] and the following status: [COMPLETED] in 95ms
+2020-05-11 06:12:00,107 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:13:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:13:00 KST 2020
+2020-05-11 06:13:00,014 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145180003}]
+2020-05-11 06:13:00,023 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:13:00,033 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:13:00,043 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:13:00,072 INFO [scheduling-1] Step: [step2] executed in 29ms
+2020-05-11 06:13:00,082 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:13:00,111 INFO [scheduling-1] Step: [step3] executed in 29ms
+2020-05-11 06:13:00,117 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145180003}] and the following status: [COMPLETED] in 101ms
+2020-05-11 06:13:00,117 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:14:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:14:00 KST 2020
+2020-05-11 06:14:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145240001}]
+2020-05-11 06:14:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:14:00,027 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:14:00,034 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:14:00,060 INFO [scheduling-1] Step: [step2] executed in 26ms
+2020-05-11 06:14:00,073 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:14:00,111 INFO [scheduling-1] Step: [step3] executed in 37ms
+2020-05-11 06:14:00,117 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145240001}] and the following status: [COMPLETED] in 103ms
+2020-05-11 06:14:00,117 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:15:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:15:00 KST 2020
+2020-05-11 06:15:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145300002}]
+2020-05-11 06:15:00,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:15:00,030 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:15:00,041 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:15:00,068 INFO [scheduling-1] Step: [step2] executed in 27ms
+2020-05-11 06:15:00,079 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:15:00,111 INFO [scheduling-1] Step: [step3] executed in 32ms
+2020-05-11 06:15:00,116 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145300002}] and the following status: [COMPLETED] in 103ms
+2020-05-11 06:15:00,117 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:16:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:16:00 KST 2020
+2020-05-11 06:16:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145360001}]
+2020-05-11 06:16:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:16:00,027 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:16:00,036 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:16:00,061 INFO [scheduling-1] Step: [step2] executed in 25ms
+2020-05-11 06:16:00,072 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:16:00,103 INFO [scheduling-1] Step: [step3] executed in 31ms
+2020-05-11 06:16:00,108 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145360001}] and the following status: [COMPLETED] in 96ms
+2020-05-11 06:16:00,108 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:17:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:17:00 KST 2020
+2020-05-11 06:17:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145420002}]
+2020-05-11 06:17:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:17:00,029 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:17:00,038 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:17:00,062 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:17:00,074 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:17:00,106 INFO [scheduling-1] Step: [step3] executed in 32ms
+2020-05-11 06:17:00,112 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145420002}] and the following status: [COMPLETED] in 97ms
+2020-05-11 06:17:00,112 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:18:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:18:00 KST 2020
+2020-05-11 06:18:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145480002}]
+2020-05-11 06:18:00,018 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:18:00,026 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:18:00,036 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:18:00,059 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:18:00,067 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:18:00,093 INFO [scheduling-1] Step: [step3] executed in 25ms
+2020-05-11 06:18:00,100 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145480002}] and the following status: [COMPLETED] in 88ms
+2020-05-11 06:18:00,100 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:19:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:19:00 KST 2020
+2020-05-11 06:19:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145540002}]
+2020-05-11 06:19:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:19:00,028 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:19:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:19:00,061 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:19:00,070 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:19:00,098 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:19:00,103 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145540002}] and the following status: [COMPLETED] in 89ms
+2020-05-11 06:19:00,103 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:20:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:20:00 KST 2020
+2020-05-11 06:20:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145600001}]
+2020-05-11 06:20:00,024 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:20:00,036 INFO [scheduling-1] Step: [step1] executed in 12ms
+2020-05-11 06:20:00,049 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:20:00,074 INFO [scheduling-1] Step: [step2] executed in 25ms
+2020-05-11 06:20:00,086 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:20:00,119 INFO [scheduling-1] Step: [step3] executed in 32ms
+2020-05-11 06:20:00,124 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145600001}] and the following status: [COMPLETED] in 110ms
+2020-05-11 06:20:00,124 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:21:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:21:00 KST 2020
+2020-05-11 06:21:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145660001}]
+2020-05-11 06:21:00,023 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:21:00,034 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:21:00,046 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:21:00,069 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:21:00,079 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:21:00,108 INFO [scheduling-1] Step: [step3] executed in 29ms
+2020-05-11 06:21:00,113 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145660001}] and the following status: [COMPLETED] in 99ms
+2020-05-11 06:21:00,113 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:22:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:22:00 KST 2020
+2020-05-11 06:22:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145720001}]
+2020-05-11 06:22:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:22:00,029 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:22:00,039 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:22:00,065 INFO [scheduling-1] Step: [step2] executed in 25ms
+2020-05-11 06:22:00,076 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:22:00,109 INFO [scheduling-1] Step: [step3] executed in 33ms
+2020-05-11 06:22:00,114 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145720001}] and the following status: [COMPLETED] in 101ms
+2020-05-11 06:22:00,115 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:23:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:23:00 KST 2020
+2020-05-11 06:23:00,018 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145780002}]
+2020-05-11 06:23:00,028 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:23:00,037 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:23:00,047 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:23:00,071 INFO [scheduling-1] Step: [step2] executed in 24ms
+2020-05-11 06:23:00,081 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:23:00,110 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:23:00,115 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145780002}] and the following status: [COMPLETED] in 95ms
+2020-05-11 06:23:00,115 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:24:00,003 INFO [scheduling-1] Job StrartedMon May 11 06:24:00 KST 2020
+2020-05-11 06:24:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145840003}]
+2020-05-11 06:24:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:24:00,029 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:24:00,038 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:24:00,061 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:24:00,073 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:24:00,104 INFO [scheduling-1] Step: [step3] executed in 31ms
+2020-05-11 06:24:00,110 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145840003}] and the following status: [COMPLETED] in 96ms
+2020-05-11 06:24:00,110 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:25:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:25:00 KST 2020
+2020-05-11 06:25:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145900001}]
+2020-05-11 06:25:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:25:00,028 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:25:00,039 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:25:00,075 INFO [scheduling-1] Step: [step2] executed in 36ms
+2020-05-11 06:25:00,084 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:25:00,110 INFO [scheduling-1] Step: [step3] executed in 26ms
+2020-05-11 06:25:00,115 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145900001}] and the following status: [COMPLETED] in 102ms
+2020-05-11 06:25:00,115 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:26:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:26:00 KST 2020
+2020-05-11 06:26:00,013 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589145960002}]
+2020-05-11 06:26:00,021 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:26:00,030 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:26:00,038 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:26:00,063 INFO [scheduling-1] Step: [step2] executed in 25ms
+2020-05-11 06:26:00,073 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:26:00,100 INFO [scheduling-1] Step: [step3] executed in 27ms
+2020-05-11 06:26:00,105 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589145960002}] and the following status: [COMPLETED] in 90ms
+2020-05-11 06:26:00,105 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:27:00,000 INFO [scheduling-1] Job StrartedMon May 11 06:27:00 KST 2020
+2020-05-11 06:27:00,009 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146020000}]
+2020-05-11 06:27:00,017 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:27:00,026 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:27:00,035 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:27:00,061 INFO [scheduling-1] Step: [step2] executed in 26ms
+2020-05-11 06:27:00,071 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:27:00,102 INFO [scheduling-1] Step: [step3] executed in 30ms
+2020-05-11 06:27:00,108 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146020000}] and the following status: [COMPLETED] in 97ms
+2020-05-11 06:27:00,108 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:28:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:28:00 KST 2020
+2020-05-11 06:28:00,013 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146080001}]
+2020-05-11 06:28:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:28:00,029 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:28:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:28:00,059 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:28:00,068 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:28:00,097 INFO [scheduling-1] Step: [step3] executed in 29ms
+2020-05-11 06:28:00,102 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146080001}] and the following status: [COMPLETED] in 87ms
+2020-05-11 06:28:00,102 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:29:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:29:00 KST 2020
+2020-05-11 06:29:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146140001}]
+2020-05-11 06:29:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:29:00,028 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:29:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:29:00,060 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:29:00,070 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:29:00,099 INFO [scheduling-1] Step: [step3] executed in 29ms
+2020-05-11 06:29:00,104 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146140001}] and the following status: [COMPLETED] in 91ms
+2020-05-11 06:29:00,104 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:30:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:30:00 KST 2020
+2020-05-11 06:30:00,007 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146200001}]
+2020-05-11 06:30:00,015 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:30:00,024 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:30:00,034 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:30:00,056 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:30:00,067 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:30:00,096 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:30:00,101 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146200001}] and the following status: [COMPLETED] in 91ms
+2020-05-11 06:30:00,102 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:31:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:31:00 KST 2020
+2020-05-11 06:31:00,013 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146260002}]
+2020-05-11 06:31:00,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:31:00,030 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:31:00,038 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:31:00,064 INFO [scheduling-1] Step: [step2] executed in 26ms
+2020-05-11 06:31:00,072 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:31:00,100 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:31:00,106 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146260002}] and the following status: [COMPLETED] in 91ms
+2020-05-11 06:31:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:32:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:32:00 KST 2020
+2020-05-11 06:32:00,014 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146320003}]
+2020-05-11 06:32:00,023 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:32:00,033 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:32:00,042 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:32:00,062 INFO [scheduling-1] Step: [step2] executed in 20ms
+2020-05-11 06:32:00,071 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:32:00,101 INFO [scheduling-1] Step: [step3] executed in 30ms
+2020-05-11 06:32:00,106 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146320003}] and the following status: [COMPLETED] in 90ms
+2020-05-11 06:32:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:33:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:33:00 KST 2020
+2020-05-11 06:33:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146380002}]
+2020-05-11 06:33:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:33:00,028 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:33:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:33:00,061 INFO [scheduling-1] Step: [step2] executed in 24ms
+2020-05-11 06:33:00,069 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:33:00,096 INFO [scheduling-1] Step: [step3] executed in 27ms
+2020-05-11 06:33:00,101 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146380002}] and the following status: [COMPLETED] in 87ms
+2020-05-11 06:33:00,101 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:34:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:34:00 KST 2020
+2020-05-11 06:34:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146440002}]
+2020-05-11 06:34:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:34:00,029 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:34:00,039 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:34:00,062 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:34:00,072 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:34:00,101 INFO [scheduling-1] Step: [step3] executed in 29ms
+2020-05-11 06:34:00,106 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146440002}] and the following status: [COMPLETED] in 93ms
+2020-05-11 06:34:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:35:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:35:00 KST 2020
+2020-05-11 06:35:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146500002}]
+2020-05-11 06:35:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:35:00,027 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:35:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:35:00,061 INFO [scheduling-1] Step: [step2] executed in 24ms
+2020-05-11 06:35:00,071 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:35:00,101 INFO [scheduling-1] Step: [step3] executed in 30ms
+2020-05-11 06:35:00,106 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146500002}] and the following status: [COMPLETED] in 93ms
+2020-05-11 06:35:00,107 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:36:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:36:00 KST 2020
+2020-05-11 06:36:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146560001}]
+2020-05-11 06:36:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:36:00,030 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:36:00,039 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:36:00,063 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:36:00,073 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:36:00,101 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:36:00,106 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146560001}] and the following status: [COMPLETED] in 93ms
+2020-05-11 06:36:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:37:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:37:00 KST 2020
+2020-05-11 06:37:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146620001}]
+2020-05-11 06:37:00,018 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:37:00,025 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:37:00,033 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:37:00,050 INFO [scheduling-1] Step: [step2] executed in 17ms
+2020-05-11 06:37:00,062 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:37:00,087 INFO [scheduling-1] Step: [step3] executed in 25ms
+2020-05-11 06:37:00,091 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146620001}] and the following status: [COMPLETED] in 79ms
+2020-05-11 06:37:00,091 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:38:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:38:00 KST 2020
+2020-05-11 06:38:00,020 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146680001}]
+2020-05-11 06:38:00,030 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:38:00,038 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:38:00,045 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:38:00,069 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:38:00,077 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:38:00,101 INFO [scheduling-1] Step: [step3] executed in 23ms
+2020-05-11 06:38:00,105 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146680001}] and the following status: [COMPLETED] in 84ms
+2020-05-11 06:38:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:39:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:39:00 KST 2020
+2020-05-11 06:39:00,013 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146740002}]
+2020-05-11 06:39:00,024 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:39:00,034 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:39:00,044 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:39:00,071 INFO [scheduling-1] Step: [step2] executed in 27ms
+2020-05-11 06:39:00,082 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:39:00,117 INFO [scheduling-1] Step: [step3] executed in 34ms
+2020-05-11 06:39:00,122 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146740002}] and the following status: [COMPLETED] in 106ms
+2020-05-11 06:39:00,123 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:40:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:40:00 KST 2020
+2020-05-11 06:40:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146800001}]
+2020-05-11 06:40:00,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:40:00,031 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:40:00,040 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:40:00,064 INFO [scheduling-1] Step: [step2] executed in 24ms
+2020-05-11 06:40:00,073 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:40:00,101 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:40:00,106 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146800001}] and the following status: [COMPLETED] in 92ms
+2020-05-11 06:40:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:41:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:41:00 KST 2020
+2020-05-11 06:41:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146860001}]
+2020-05-11 06:41:00,018 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:41:00,028 INFO [scheduling-1] Step: [step1] executed in 10ms
+2020-05-11 06:41:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:41:00,062 INFO [scheduling-1] Step: [step2] executed in 24ms
+2020-05-11 06:41:00,072 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:41:00,100 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:41:00,105 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146860001}] and the following status: [COMPLETED] in 93ms
+2020-05-11 06:41:00,106 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:42:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:42:00 KST 2020
+2020-05-11 06:42:00,016 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589146920002}]
+2020-05-11 06:42:00,024 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:42:00,032 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:42:00,040 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:42:00,065 INFO [scheduling-1] Step: [step2] executed in 25ms
+2020-05-11 06:42:00,075 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:42:00,103 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:42:00,108 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589146920002}] and the following status: [COMPLETED] in 90ms
+2020-05-11 06:42:00,109 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:43:00,000 INFO [scheduling-1] Job StrartedMon May 11 06:43:00 KST 2020
+2020-05-11 06:43:00,077 ERROR [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.dao.CannotSerializeTransactionException: PreparedStatementCallback; SQL [INSERT into BATCH_JOB_INSTANCE(JOB_INSTANCE_ID, JOB_NAME, JOB_KEY, VERSION) values (?, ?, ?, ?)]; ORA-08177: can't serialize access for this transaction
+; nested exception is java.sql.SQLException: ORA-08177: can't serialize access for this transaction
+
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:271)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:922)
+	at org.springframework.batch.core.repository.dao.JdbcJobInstanceDao.createJobInstance(JdbcJobInstanceDao.java:120)
+	at org.springframework.batch.core.repository.support.SimpleJobRepository.createJobExecution(SimpleJobRepository.java:140)
+	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.batch.core.repository.support.AbstractJobRepositoryFactoryBean$1.invoke(AbstractJobRepositoryFactoryBean.java:181)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy63.createJobExecution(Unknown Source)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:137)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy66.run(Unknown Source)
+	at com.batch.config.BatchConfig.perform(BatchConfig.java:73)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: ORA-08177: can't serialize access for this transaction
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:70)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:133)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:206)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:455)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:413)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1034)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:194)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:953)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1222)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3387)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3468)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1350)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 43 common frames omitted
+2020-05-11 06:44:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:44:00 KST 2020
+2020-05-11 06:44:00,008 ERROR [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.dao.CannotSerializeTransactionException: PreparedStatementCallback; SQL [INSERT into BATCH_JOB_INSTANCE(JOB_INSTANCE_ID, JOB_NAME, JOB_KEY, VERSION) values (?, ?, ?, ?)]; ORA-08177: can't serialize access for this transaction
+; nested exception is java.sql.SQLException: ORA-08177: can't serialize access for this transaction
+
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:271)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:922)
+	at org.springframework.batch.core.repository.dao.JdbcJobInstanceDao.createJobInstance(JdbcJobInstanceDao.java:120)
+	at org.springframework.batch.core.repository.support.SimpleJobRepository.createJobExecution(SimpleJobRepository.java:140)
+	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.batch.core.repository.support.AbstractJobRepositoryFactoryBean$1.invoke(AbstractJobRepositoryFactoryBean.java:181)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy63.createJobExecution(Unknown Source)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:137)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy66.run(Unknown Source)
+	at com.batch.config.BatchConfig.perform(BatchConfig.java:73)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: ORA-08177: can't serialize access for this transaction
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:70)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:133)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:206)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:455)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:413)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1034)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:194)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:953)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1222)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3387)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3468)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1350)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 43 common frames omitted
+2020-05-11 06:45:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:45:00 KST 2020
+2020-05-11 06:45:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147100001}]
+2020-05-11 06:45:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:45:00,028 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:45:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:45:00,060 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:45:00,068 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:45:00,097 INFO [scheduling-1] Step: [step3] executed in 29ms
+2020-05-11 06:45:00,102 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147100001}] and the following status: [COMPLETED] in 90ms
+2020-05-11 06:45:00,102 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:46:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:46:00 KST 2020
+2020-05-11 06:46:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147160001}]
+2020-05-11 06:46:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:46:00,029 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:46:00,039 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:46:00,062 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:46:00,072 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:46:00,100 INFO [scheduling-1] Step: [step3] executed in 27ms
+2020-05-11 06:46:00,105 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147160001}] and the following status: [COMPLETED] in 93ms
+2020-05-11 06:46:00,105 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:47:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:47:00 KST 2020
+2020-05-11 06:47:00,007 ERROR [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.dao.CannotSerializeTransactionException: PreparedStatementCallback; SQL [INSERT into BATCH_JOB_INSTANCE(JOB_INSTANCE_ID, JOB_NAME, JOB_KEY, VERSION) values (?, ?, ?, ?)]; ORA-08177: can't serialize access for this transaction
+; nested exception is java.sql.SQLException: ORA-08177: can't serialize access for this transaction
+
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:271)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:922)
+	at org.springframework.batch.core.repository.dao.JdbcJobInstanceDao.createJobInstance(JdbcJobInstanceDao.java:120)
+	at org.springframework.batch.core.repository.support.SimpleJobRepository.createJobExecution(SimpleJobRepository.java:140)
+	at sun.reflect.GeneratedMethodAccessor49.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.batch.core.repository.support.AbstractJobRepositoryFactoryBean$1.invoke(AbstractJobRepositoryFactoryBean.java:181)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy63.createJobExecution(Unknown Source)
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:137)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:127)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy66.run(Unknown Source)
+	at com.batch.config.BatchConfig.perform(BatchConfig.java:73)
+	at sun.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: ORA-08177: can't serialize access for this transaction
+
+	at oracle.jdbc.driver.SQLStateMapping.newSQLException(SQLStateMapping.java:70)
+	at oracle.jdbc.driver.DatabaseError.newSQLException(DatabaseError.java:133)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:206)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:455)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:413)
+	at oracle.jdbc.driver.T4C8Oall.receive(T4C8Oall.java:1034)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:194)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:953)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1222)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3387)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeUpdate(OraclePreparedStatement.java:3468)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.executeUpdate(OraclePreparedStatementWrapper.java:1350)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136)
+	at org.apache.commons.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:136)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 43 common frames omitted
+2020-05-11 06:48:00,003 INFO [scheduling-1] Job StrartedMon May 11 06:48:00 KST 2020
+2020-05-11 06:48:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147280003}]
+2020-05-11 06:48:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:48:00,027 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:48:00,034 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:48:00,056 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:48:00,066 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:48:00,094 INFO [scheduling-1] Step: [step3] executed in 27ms
+2020-05-11 06:48:00,098 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147280003}] and the following status: [COMPLETED] in 85ms
+2020-05-11 06:48:00,098 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:49:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:49:00 KST 2020
+2020-05-11 06:49:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147340002}]
+2020-05-11 06:49:00,018 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:49:00,025 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:49:00,033 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:49:00,054 INFO [scheduling-1] Step: [step2] executed in 21ms
+2020-05-11 06:49:00,064 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:49:00,092 INFO [scheduling-1] Step: [step3] executed in 27ms
+2020-05-11 06:49:00,097 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147340002}] and the following status: [COMPLETED] in 85ms
+2020-05-11 06:49:00,097 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:50:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:50:00 KST 2020
+2020-05-11 06:50:00,014 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147400002}]
+2020-05-11 06:50:00,023 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:50:00,032 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:50:00,041 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:50:00,065 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:50:00,072 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:50:00,096 INFO [scheduling-1] Step: [step3] executed in 23ms
+2020-05-11 06:50:00,101 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147400002}] and the following status: [COMPLETED] in 85ms
+2020-05-11 06:50:00,101 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:51:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:51:00 KST 2020
+2020-05-11 06:51:00,014 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147460001}]
+2020-05-11 06:51:00,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:51:00,030 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:51:00,038 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:51:00,060 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:51:00,068 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:51:00,091 INFO [scheduling-1] Step: [step3] executed in 23ms
+2020-05-11 06:51:00,096 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147460001}] and the following status: [COMPLETED] in 80ms
+2020-05-11 06:51:00,096 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:52:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:52:00 KST 2020
+2020-05-11 06:52:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147520002}]
+2020-05-11 06:52:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:52:00,027 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:52:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:52:00,057 INFO [scheduling-1] Step: [step2] executed in 20ms
+2020-05-11 06:52:00,067 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:52:00,098 INFO [scheduling-1] Step: [step3] executed in 31ms
+2020-05-11 06:52:00,104 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147520002}] and the following status: [COMPLETED] in 91ms
+2020-05-11 06:52:00,104 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:53:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:53:00 KST 2020
+2020-05-11 06:53:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147580002}]
+2020-05-11 06:53:00,019 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:53:00,028 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:53:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:53:00,060 INFO [scheduling-1] Step: [step2] executed in 23ms
+2020-05-11 06:53:00,069 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:53:00,097 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:53:00,102 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147580002}] and the following status: [COMPLETED] in 89ms
+2020-05-11 06:53:00,102 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:54:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:54:00 KST 2020
+2020-05-11 06:54:00,014 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147640002}]
+2020-05-11 06:54:00,026 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:54:00,035 INFO [scheduling-1] Step: [step1] executed in 9ms
+2020-05-11 06:54:00,045 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:54:00,068 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:54:00,075 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:54:00,098 INFO [scheduling-1] Step: [step3] executed in 23ms
+2020-05-11 06:54:00,103 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147640002}] and the following status: [COMPLETED] in 86ms
+2020-05-11 06:54:00,103 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:55:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:55:00 KST 2020
+2020-05-11 06:55:00,010 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147700001}]
+2020-05-11 06:55:00,017 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:55:00,025 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:55:00,035 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:55:00,057 INFO [scheduling-1] Step: [step2] executed in 22ms
+2020-05-11 06:55:00,066 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:55:00,088 INFO [scheduling-1] Step: [step3] executed in 22ms
+2020-05-11 06:55:00,092 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147700001}] and the following status: [COMPLETED] in 80ms
+2020-05-11 06:55:00,092 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:56:00,002 INFO [scheduling-1] Job StrartedMon May 11 06:56:00 KST 2020
+2020-05-11 06:56:00,014 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147760003}]
+2020-05-11 06:56:00,022 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:56:00,029 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:56:00,037 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:56:00,057 INFO [scheduling-1] Step: [step2] executed in 20ms
+2020-05-11 06:56:00,066 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:56:00,094 INFO [scheduling-1] Step: [step3] executed in 28ms
+2020-05-11 06:56:00,099 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147760003}] and the following status: [COMPLETED] in 82ms
+2020-05-11 06:56:00,099 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:57:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:57:00 KST 2020
+2020-05-11 06:57:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147820003}]
+2020-05-11 06:57:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:57:00,026 INFO [scheduling-1] Step: [step1] executed in 5ms
+2020-05-11 06:57:00,034 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:57:00,056 INFO [scheduling-1] Step: [step2] executed in 21ms
+2020-05-11 06:57:00,068 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:57:00,095 INFO [scheduling-1] Step: [step3] executed in 27ms
+2020-05-11 06:57:00,099 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147820003}] and the following status: [COMPLETED] in 86ms
+2020-05-11 06:57:00,100 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:58:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:58:00 KST 2020
+2020-05-11 06:58:00,011 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147880002}]
+2020-05-11 06:58:00,029 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:58:00,037 INFO [scheduling-1] Step: [step1] executed in 8ms
+2020-05-11 06:58:00,043 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:58:00,061 INFO [scheduling-1] Step: [step2] executed in 18ms
+2020-05-11 06:58:00,069 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:58:00,091 INFO [scheduling-1] Step: [step3] executed in 22ms
+2020-05-11 06:58:00,096 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147880002}] and the following status: [COMPLETED] in 82ms
+2020-05-11 06:58:00,096 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 06:59:00,001 INFO [scheduling-1] Job StrartedMon May 11 06:59:00 KST 2020
+2020-05-11 06:59:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589147940001}]
+2020-05-11 06:59:00,020 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 06:59:00,027 INFO [scheduling-1] Step: [step1] executed in 7ms
+2020-05-11 06:59:00,035 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 06:59:00,056 INFO [scheduling-1] Step: [step2] executed in 21ms
+2020-05-11 06:59:00,064 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 06:59:00,090 INFO [scheduling-1] Step: [step3] executed in 26ms
+2020-05-11 06:59:00,094 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589147940001}] and the following status: [COMPLETED] in 81ms
+2020-05-11 06:59:00,095 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 11:01:39,091 INFO [main] Starting PsyBatchApplication on DESKTOP-SOOYEON with PID 20076 (C:\Users\niceb\eclipse-workspace\psy_batch\target\classes started by sooyeon in C:\Users\niceb\eclipse-workspace\psy_batch)
+2020-05-11 11:01:39,096 INFO [main] No active profile set, falling back to default profiles: default
+2020-05-11 11:01:39,929 INFO [main] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-05-11 11:01:39,958 INFO [main] Finished Spring Data repository scanning in 22ms. Found 0 JDBC repository interfaces.
+2020-05-11 11:01:41,499 INFO [main] Tomcat initialized with port(s): 8080 (http)
+2020-05-11 11:01:41,513 INFO [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-11 11:01:41,514 INFO [main] Starting service [Tomcat]
+2020-05-11 11:01:41,515 INFO [main] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-11 11:01:41,649 INFO [main] Initializing Spring embedded WebApplicationContext
+2020-05-11 11:01:41,650 INFO [main] Root WebApplicationContext: initialization completed in 2486 ms
+2020-05-11 11:01:42,325 INFO [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-11 11:01:44,099 INFO [main] No database type set, using meta data indicating: ORACLE
+2020-05-11 11:01:44,129 INFO [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-05-11 11:01:44,279 INFO [main] Initializing ExecutorService 'taskScheduler'
+2020-05-11 11:01:44,312 INFO [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-05-11 11:01:44,343 INFO [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-11 11:01:44,346 INFO [main] Started PsyBatchApplication in 5.953 seconds (JVM running for 6.625)
+2020-05-11 11:01:44,348 INFO [main] Running default command line with: []
+2020-05-11 11:01:44,529 INFO [main] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{}]
+2020-05-11 11:01:44,625 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=0, version=4, name=step1, status=COMPLETED, exitStatus=COMPLETED, readCount=1, filterCount=0, writeCount=1 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=2, rollbackCount=0, exitDescription=
+2020-05-11 11:01:44,664 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=9, name=step2, status=COMPLETED, exitStatus=COMPLETED, readCount=6, filterCount=0, writeCount=6 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=7, rollbackCount=0, exitDescription=
+2020-05-11 11:01:44,716 INFO [main] Step already complete or not restartable, so no action to execute: StepExecution: id=20, version=9, name=step3, status=COMPLETED, exitStatus=COMPLETED, readCount=6, filterCount=0, writeCount=6 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=7, rollbackCount=0, exitDescription=
+2020-05-11 11:01:44,731 INFO [main] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 151ms
+2020-05-11 11:02:00,002 INFO [scheduling-1] Job StrartedMon May 11 11:02:00 KST 2020
+2020-05-11 11:02:00,022 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589162520007}]
+2020-05-11 11:02:00,036 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 11:02:00,124 INFO [scheduling-1] Step: [step1] executed in 88ms
+2020-05-11 11:02:00,135 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 11:02:00,170 INFO [scheduling-1] Step: [step2] executed in 34ms
+2020-05-11 11:02:00,184 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 11:02:00,235 INFO [scheduling-1] Step: [step3] executed in 51ms
+2020-05-11 11:02:00,242 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589162520007}] and the following status: [COMPLETED] in 217ms
+2020-05-11 11:02:00,243 INFO [scheduling-1] stepJob finished with status : COMPLETED
+2020-05-11 11:03:00,002 INFO [scheduling-1] Job StrartedMon May 11 11:03:00 KST 2020
+2020-05-11 11:03:00,012 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] launched with the following parameters: [{JobId=1589162580002}]
+2020-05-11 11:03:00,025 INFO [scheduling-1] Executing step: [step1]
+2020-05-11 11:03:00,037 INFO [scheduling-1] Step: [step1] executed in 12ms
+2020-05-11 11:03:00,051 INFO [scheduling-1] Executing step: [step2]
+2020-05-11 11:03:00,086 INFO [scheduling-1] Step: [step2] executed in 34ms
+2020-05-11 11:03:00,102 INFO [scheduling-1] Executing step: [step3]
+2020-05-11 11:03:00,139 INFO [scheduling-1] Step: [step3] executed in 36ms
+2020-05-11 11:03:00,145 INFO [scheduling-1] Job: [FlowJob: [name=stepJob]] completed with the following parameters: [{JobId=1589162580002}] and the following status: [COMPLETED] in 130ms
+2020-05-11 11:03:00,145 INFO [scheduling-1] stepJob finished with status : COMPLETED
